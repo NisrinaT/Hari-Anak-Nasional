@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hari Anak Nasional</title>
+  <link rel="stylesheet" href="script.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">karAwrin.com</div>
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+  <div class="hero-text">
+    <h1><span>Hari Anak Nasional</span></h1>
+    <p>Mari kita bersama-sama wujudkan masa depan cerah bagi setiap anak Indonesia dengan memberikan 
+    perlindungan, kasih sayang, dan kesempatan yang setara</p>
+  </div>
+</section>
+
+
+  <section id="tentang" class="about">
+    <div class="about-text">
+      <h2>Tentang Hari Anak Nasional</h2>
+      <p>
+        Hari Anak Nasional di Indonesia diperingati setiap 23 Juli untuk menghormati dan melindungi 
+        hak-hak anak sebagai generasi penerus bangsa. Peringatan ini berasal dari Kongres Wanita Indonesia 
+        pada 1951 dan secara resmi ditetapkan sejak 1984. Tujuannya meningkatkan kesadaran masyarakat 
+        tentang hak hidup, tumbuh, berkembang, serta perlindungan anak demi masa depan bangsa yang lebih baik. 
+        Mari kita bersama mendukung dan melindungi anak-anak Indonesia.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="Picture/bermain.png" alt="Anak bermain"/>
+    </div>
+  </section>
+
+  <section id="galeri" class="gallery">
+  <h2>Galeri Hari Anak Nasional</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="Picture/lompattali.jpg" alt="Anak Bermain"/>
+      <h3>Permainan Tradisional</h3>
+      <p>Anak-anak memainkan permainan tradisional seperti congklak dan lompat tali bersama teman-teman.</p>
+    </div>
+    <div class="gallery-item">
+      <img src="Picture/melukis.png" alt="Anak Melukis"/>
+      <h3>Melukis Bersama</h3>
+      <p>Kegiatan seni melatih kreativitas anak sejak dini melalui lukisan bebas dan ekspresif.</p>
+    </div>
+    <div class="gallery-item">
+      <img src="Picture/menanam.jpg" alt="Anak Menanam"/>
+      <h3>Menanam Pohon</h3>
+      <p>Anak-anak belajar mencintai lingkungan dengan menanam pohon di sekitar sekolah.</p>
+    </div>
+    <div class="gallery-item">
+      <img src="Picture/membaca.png" alt="Anak Membaca"/>
+      <h3>Membaca di Perpustakaan</h3>
+      <p>Kegiatan membaca bersama untuk menumbuhkan minat literasi dan imajinasi anak-anak.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="kontak" class="contact-form">
+    <h2><span>Form Kontak</span></h2>
+    <form id="formKontak" onsubmit="return validateForm()">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email" required />
+      
+      <label for="nisn">NISN:</label>
+      <input type="text" id="nisn" name="nisn" placeholder="Masukkan NISN" required />
+      
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+        <p><span>karAwrin.com</span></p>
+        <p>"Setiap anak berhak tumbuh dengan bahagia, belajar dengan merdeka, dan bermimpi setinggi langit."</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/craflwe?igsh=MWZnNXVvNjIyODMwdA=="><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/qr/TTLRMTRKCALZO1"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <footer class="footer-han">
+       © 2025 Hari Anak Nasional. Semua hak cipta dilindungi.
+    </footer>
+</body>
+</html>
